@@ -1,4 +1,5 @@
 import "./globals.css";
+import BootstrapClient from "@/components/bootstrap/BootstrapClient";
 
 
 
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
+        <BootstrapClient />
       </body>
     </html>
   );
