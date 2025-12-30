@@ -7,3 +7,27 @@
 /* ===============================
    GLOBAL RESETS
    =============================== */
+
+:root {
+  /* Primary School Brand Colors */
+  --school-primary: #0d6efd;
+  /* Trust Blue */
+  --school-secondary: #198754;
+  /* Academic Green */
+  --school-dark: #0b1c2d;
+  /* Deep Navy */
+  --school-light: #f8f9fa;
+  /* Soft Light */
+  --school-muted: #474f55;
+  /* Muted Text */
+}
+
+.header-brand {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.75);
+}
