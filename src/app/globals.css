@@ -20,6 +20,13 @@
   /* Soft Light */
   --school-muted: #474f55;
   /* Muted Text */
+  --primary-color: #1e3a8a;
+  --secondary-color: #2563eb;
+  --dark-color: #0f172a;
+
+  /* RGB versions for overlays */
+  --primary-rgb: 30, 58, 138;
+  --secondary-rgb: 37, 99, 235;
 }
 
 .header-brand {
@@ -30,4 +37,20 @@
 .footer-text {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.75);
+}
+
+
+.sidebar {
+  width: 260px;
+}
+
+.sidebar .nav-link {
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+  background-color: var(--primary-color);
 }
