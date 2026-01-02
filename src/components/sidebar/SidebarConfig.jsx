@@ -6,6 +6,26 @@ export const sidebarConfig = {
             icon: "fa-house",
         },
         {
+            label: "Courses",
+            path: "/student/courses",
+            icon: "fa-book",
+        },
+        {
+            label: "Assignments",
+            path: "/student/assignments",
+            icon: "fa-clipboard-list",
+        },
+        {
+            label: "Grades",
+            path: "/student/grades",
+            icon: "fa-chart-bar",
+        },
+        {
+            label: "Schedule",
+            path: "/student/schedule",
+            icon: "fa-calendar-week",
+        },
+        {
             label: "My Results",
             path: "/student/results",
             icon: "fa-file-lines",
